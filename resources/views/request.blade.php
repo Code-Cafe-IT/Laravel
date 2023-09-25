@@ -37,7 +37,7 @@
                     <td>{{ $item['name'] }}</td>
                     <td>{{ $item['price'] }}</td>
                     <td>{{ $item['inventory']['quantity_available'] }}</td>
-                    <td><a href="{{ route('post-data') }}"><button>Update</button></a></td>
+                    <td><a href="{{ route('post-data') }}"><button type="button" class="btn btn-success">Update</button></a></td>
                 </tr>
 
             @endforeach

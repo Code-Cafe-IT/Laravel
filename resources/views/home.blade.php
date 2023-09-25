@@ -14,10 +14,9 @@
                         </div>
                     @endif           
                 </div>
-                <a href="{{ route('api.request') }}"><button id="getDataButton">Dữ liệu RequestManagerProduct </button></a> 
-                <a href="{{ route('api.product') }}"><button id="getDataButton">Dữ liệu ManagerProduct</button></a> 
-                <a href="{{ route('api') }}"><button id="getDataButton">auth</button></a> 
-                
+                <a href="{{ route('api.request') }}"> <button id="getDataButton" type="button" class=" mt-2 btn btn-primary">Dữ liệu RequestManagerProduct</button></a> 
+                <a href="{{ route('api.product') }}"><button id="getDataButton" type="button" class=" mt-2 btn btn-primary">Dữ liệu Dữ liệu ManagerProduct</button></a> 
+                <a href="{{ route('api.product') }}"><button id="getDataButton" type="button" class=" mt-2 btn btn-primary">Create Product</button></a> 
             </div>
         </div>
     </div>
